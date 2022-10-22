@@ -1,0 +1,166 @@
+/*HEADER*/
+header {
+    background-color: white;
+    box-shadow: 0px 8px 4px -1px rgba(0, 0, 0, 0.49); 
+}
+.navbar-brand {
+      display: flex;
+      align-items: center; 
+    }
+.nav-item {
+      margin: 0.5rem; 
+    }
+.nav-link {
+        color: #13213d;
+ }
+.nav-link:hover {
+    border-radius:5rem;
+    background-color:#213664 ;
+    transform: scale(1, 1);
+    transition: all 1s;
+    font-style: initial;
+    color: #ffffff;
+}
+#inicioButton {
+    color: #fca311;
+}
+/*Body*/
+body{
+    background-color: #ffffff;
+}
+
+/*Body Index*/
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.button a:hover{
+    text-decoration: none;
+    color: rgb(247, 245, 245);
+}
+.tarjetaHrz{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 3rem;
+    justify-content: center;
+    gap: 1rem;
+}
+.imagenTarjetaHrz{
+    margin: 1rem; 
+    height:100%;
+    width: 60%; 
+    filter: brightness(100%);
+
+}
+.button{
+    border-radius: 5rem;
+    display: inline-block;
+    margin: 1.5rem 1rem;
+    background-color: #fca311;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+.button:hover{
+    background-color: #13213d;
+    transform: scale(1,1);
+    transition: all 1s;
+    font-style:initial;
+    color: white;
+    border: #13213d 1px solid ;
+}
+.tajetasVer{
+    display: flex;
+    align-items: center;
+    margin: 2rem 4rem;
+    justify-content: center;
+    gap: 2rem;
+    color: #ffffff;
+    text-align: center;
+}
+.tarjetasVerInv{
+    border-radius: 2rem;
+    background-color: #102754;
+    margin: 1rem 0rem;
+    gap: 1rem;  
+}
+#tviExt{
+   background-color:#213664 ; 
+}
+/*PANTALLAS XS SM MD NOSOTRAS*/
+@media only screen and ( max-width:935px){
+    .tarjetaHrz{
+        display: inline-block;
+        display: flex;
+        margin: 2rem 0.45rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    .imagenTarjetaHrz{
+        height: 100%;
+        width: 100%;
+    }.tajetasVer{
+        display: inline-block;
+        display: flex;
+        margin: 2rem 0.45rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+/*Calculadora*/
+
+
+/*Footer*/
+.footer_index{
+    grid-template-areas:"footer";
+    display: flex;
+    justify-content:space-around;
+    padding: 1rem 2rem;
+    background-color:#fca311;
+
+}
+.footer_logo{
+    display: flex;
+    align-items:center;
+}
+.footer_imagen{
+    width: 70px;
+}
+.copyright_cont{
+            margin: 0rem 1rem
+    }
+.contenedores_footer_logoredes{
+        display: flex;
+        align-items: center;
+        padding: 0.5rem;
+        border-radius: 5rem; 
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
+ .logo_redes_footer{
+            width:25px ;
+        }
+@media only screen and ( max-width:460px){
+    .footer_index{
+        flex-direction: column;
+    }
+    .footer_imagen{
+        margin: 0.5rem 0rem;
+    }
+    .footer_logo{
+        display: inline;
+    }
+    .copyright_cont{
+        margin: 0.5rem 0rem;
+    }        
+    .contenedores_footer_logoredes{
+        padding: 0.1rem;
+                    }
+            } 
+          
+            
