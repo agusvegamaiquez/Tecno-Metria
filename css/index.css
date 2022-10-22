@@ -2,6 +2,7 @@
 header {
     background-color: white;
     box-shadow: 0px 8px 4px -1px rgba(0, 0, 0, 0.49); 
+    grid-area: "header";
 }
 .navbar-brand {
       display: flex;
@@ -12,6 +13,7 @@ header {
     }
 .nav-link {
         color: #13213d;
+        text-align: center;
  }
 .nav-link:hover {
     border-radius:5rem;
@@ -19,7 +21,7 @@ header {
     transform: scale(1, 1);
     transition: all 1s;
     font-style: initial;
-    color: #ffffff;
+    color: #ffffff !important;
 }
 #inicioButton {
     color: #fca311;
@@ -28,7 +30,18 @@ header {
 body{
     background-color: #ffffff;
 }
-
+main{
+    grid-area: "main";
+}
+.grilla {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:auto 1fr auto;
+    grid-template-areas:"header"
+                        "main"
+                        "footer";}
+                        
 /*Body Index*/
 .button a{
     text-decoration: none;
@@ -114,6 +127,9 @@ body{
 
 
 /*Footer*/
+footer{
+    grid-area: "footer";
+}
 .footer_index{
     grid-template-areas:"footer";
     display: flex;
