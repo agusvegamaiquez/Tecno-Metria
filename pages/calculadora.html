@@ -50,32 +50,33 @@
       </header>
       <main>
         <div class="section">
-        <form>
-          <div class="row">
-            <div class="col">
-              <input id="valor1" type="text" class="form-control" placeholder="Variable A" aria-label="Variable A">
-            </div>
-            <div class="col-sm-2" style="font-size: 20px;font-weight: bold;text-align: center;">→</div>
-            <div class="col">
-              <input id="valor2" type="text" class="form-control" placeholder="Variable B" aria-label="Variable B">
-            </div>
+          <div class="calculo">
+            <form>
+              <div class="row">
+                <div class="col">
+                  <input id="valor1" type="text" class="form-control" placeholder="Variable A" aria-label="Variable A">
+                </div>
+                <div class="col-sm-2" style="font-size: 20px;font-weight: bold;text-align: center;">→</div>
+                <div class="col">
+                  <input id="valor2" type="text" class="form-control" placeholder="Variable B" aria-label="Variable B">
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col">
+                  <input id="valor3" type="text" class="form-control" placeholder="Variable C" aria-label="Variable C">
+                </div>
+                <div class="col-sm-2" style="font-size: 20px;font-weight: bold;text-align: center;">→</div>
+                <div class="col">
+                  <input id="resultado" type="text" class="form-control" placeholder="X" aria-label="X" disabled>
+                </div>
+              </div>
+              <br>
+              <input id="buttonSubmmit" class="btn btn-warning" role="button" type="submit" value="Submit">
+              <input class="btn btn-warning" role="button" type="reset" value="Reset">
+            </form>
           </div>
-          <br>
-          <div class="row">
-            <div class="col">
-              <input id="valor3" type="text" class="form-control" placeholder="Variable C" aria-label="Variable C">
-            </div>
-            <div class="col-sm-2" style="font-size: 20px;font-weight: bold;text-align: center;">→</div>
-            <div class="col">
-              <input id="resultado" type="text" class="form-control" placeholder="X" aria-label="X" disabled>
-            </div>
-          </div>
-          <br>
-          <input onclick="calcReglaDeTres ('valor1', 'valor2', 'valor3')" class="btn btn-warning"  value="Submit">
-          <input class="btn btn-warning" type="reset" value="Reset">
-        </form> 
         </div>
-        <p class="importe">Valor de la incognita: (B x C) : A =<span id="valorPoliza">0</span></p>
        </main>
       <footer class="footer_index">
         <div class="footer_logo">
