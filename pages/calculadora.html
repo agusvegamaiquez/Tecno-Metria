@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Agustina Vega Maiquez"/>
+    <script src="../js/app.js"></script>
     <link rel="stylesheet" href="../css/index.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -12,8 +13,7 @@
 </head>
 <body>
     <div class="grilla">
-
-        <header>
+      <header>
           <nav class="navbar navbar-expand-lg" ;>
               <div class="container-fluid">
                 <a class="navbar-brand"  href="../index.html" >
@@ -49,8 +49,34 @@
             </nav>
       </header>
       <main>
-
-      </main>
+        <div class="section">
+        <form>
+          <div class="row">
+            <div class="col">
+              <input id="valor1" type="text" class="form-control" placeholder="Variable A" aria-label="Variable A">
+            </div>
+            <div class="col-sm-2" style="font-size: 20px;font-weight: bold;text-align: center;">→</div>
+            <div class="col">
+              <input id="valor2" type="text" class="form-control" placeholder="Variable B" aria-label="Variable B">
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col">
+              <input id="valor3" type="text" class="form-control" placeholder="Variable C" aria-label="Variable C">
+            </div>
+            <div class="col-sm-2" style="font-size: 20px;font-weight: bold;text-align: center;">→</div>
+            <div class="col">
+              <input id="resultado" type="text" class="form-control" placeholder="X" aria-label="X" disabled>
+            </div>
+          </div>
+          <br>
+          <input onclick="calcReglaDeTres ('valor1', 'valor2', 'valor3')" class="btn btn-warning"  value="Submit">
+          <input class="btn btn-warning" type="reset" value="Reset">
+        </form> 
+        </div>
+        <p class="importe">Valor de la incognita: (B x C) : A =<span id="valorPoliza">0</span></p>
+       </main>
       <footer class="footer_index">
         <div class="footer_logo">
             <div>

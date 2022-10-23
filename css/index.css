@@ -101,6 +101,9 @@ main{
 #tviExt{
    background-color:#213664 ; 
 }
+
+
+
 /*PANTALLAS XS SM MD NOSOTRAS*/
 @media only screen and ( max-width:935px){
     .tarjetaHrz{
@@ -124,7 +127,42 @@ main{
 }
 
 /*Calculadora*/
-
+.section {
+margin: 1rem;
+display: flex;
+justify-content: space-around;
+align-items: center;
+justify-items: center; }
+.imagen_contacto {
+    margin: 8px;
+    width: 40%;
+    height: 380px;
+ }
+.section form {
+    background-color: #fcfcfc;
+    width: 50%;
+    height: 380px;
+    padding: 1rem 1rem; }
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: black !important;
+    outline: 0;
+    box-shadow: none !important; }
+.input-group-text {
+    margin: 0.2rem; }
+#button_submit {
+    margin: 2rem 0rem;
+    background-color: #13213d;
+    color: white;
+ }
+#button_submit:hover {
+    background-color: #fca311;
+    transform: scale(1, 1);
+    transition: all 1s;
+    font-style: initial;
+    color: white;
+ }
 
 /*Footer*/
 footer{
