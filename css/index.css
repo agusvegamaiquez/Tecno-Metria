@@ -165,18 +165,12 @@ main{
     }
 }
 /*Nosotros*/
-.h2_nos {
-    font-size: 400%;
-    background-color: #fca311;
-    font-weight: bolder;
-    font-style: normal;
-    padding: 1rem;
-    margin: 1rem 1.5rem;
-    display: flex;
-    justify-content: center; 
-}
+
 .main_infons {
     display: flex;
+    background-color: #213664;
+    color: #fca311;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     margin: 4rem 2rem;
     justify-content: center;
@@ -206,7 +200,7 @@ main{
       margin: 2%;
     }
 .integrantes:hover {
-        filter: brightness(100%);
+        filter:saturate(50%);
         transition: all 1s; 
     }
   
@@ -232,15 +226,20 @@ main{
         text-align: center; }
     .socios_img {
         display: flex;
-        display: block;
+        display: inline-block;
         text-align: center; 
     }
     .integrantes {
-        width: 20%;
-        margin: 5%; }
+        width: 30%;
+        margin: 1%; }
     }
 
-
+    @media only screen and (max-width: 800px){
+        .integrantes {
+            width: 50%;
+            margin: 1%; 
+        }
+    }
 /*Calculadora*/
 .botones{
     display: flex;
