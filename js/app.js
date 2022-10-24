@@ -1,32 +1,29 @@
-
+/*
 const buttonSubmit = document.getElementById("#buttonSubmmit")
 const resultadoRegla = document.querySelector("#resultadoC")
-const n1 = document.getElementById("#valorA")
-const n2 = document.getElementById("#valorB")
-const n3 = document.getElementById("#valorC")
+const variableA = document.getElementById("#valorA")
+const variableB = document.getElementById("#valorB")
+const variableC = document.getElementById("#valorC")
 
 
 const datosCompleto = ()=> {
-    if (n1 >= 0 && n2 >= 0 && n3 >= 0 ){
+    if (variableA  >= 0 && variableB  >= 0 && variableC  >= 0 ){
         return true
     }else {
         return false
     }
 }
-
-function calcReglaDeTres () {
-    let resultado = (n2*n3)/n1
+const calcReglaDeTres = ()=> {
+    let resultado = (variableB *variableC )/variableA 
     return resultado
 }
-
 const realizarcalc = ()=> {
     if(datosCompleto()) {
-        calcReglaDeTres(n1, n2, n3)
+        calcReglaDeTres(variableA ,variableB ,variableC )
         resultadoRegla.innerText = calcReglaDeTres.resultado
     }else{
         alert ("debes completar todos los datos")
     }
 
 } 
-//
-buttonSubmit.addEventListener("click", realizarcalc())
+*/

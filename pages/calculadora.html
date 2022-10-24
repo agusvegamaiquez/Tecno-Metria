@@ -54,30 +54,34 @@
             <form>
               <div class="row">
                 <div class="col">
-                  <input id="valorA" type="number" class="form-control" placeholder="Variable A" aria-label="Variable A">
+                  <input  type="number" class="form-control" placeholder="Variable A" aria-label="Variable A">
                 </div>
                 <div class="col-sm-2" style="font-size: 20px;font-weight: bold;text-align: center;">→</div>
                 <div class="col">
-                  <input id="valorB" type="number" class="form-control" placeholder="Variable B" aria-label="Variable B">
+                  <input  type="number" class="form-control" placeholder="Variable B" aria-label="Variable B">
                 </div>
               </div>
               <br>
               <div class="row">
                 <div class="col">
-                  <input id="valorC" type="number" class="form-control" placeholder="Variable C" aria-label="Variable C">
+                  <input  type="number" class="form-control" placeholder="Variable C" aria-label="Variable C">
                 </div>
                 <div class="col-sm-2" style="font-size: 20px;font-weight: bold;text-align: center;">→</div>
                 <div class="col">
-                  <input id="resultadoC" type="number" class="form-control" placeholder="X" aria-label="X" disabled>
+                  <input  type="number" class="form-control" placeholder="X" aria-label="X" disabled>
                 </div>
               </div>
               <br>
-              <input id="buttonSubmmit" class="btn btn-warning" role="button" type="submit" value="Submit">
-              <input class="btn btn-warning" role="button" type="reset" value="Reset">
-            </form>
+              <div class="botones">
+                <button class="buttons specific" id="buttonSubmmit">Submit</button>
+                <input class="buttons btn btn-warning" role="button" type="reset" value="Reset">
+              </div>
+              </form>
+            <br>
+            <p class="importe">El resultado es: <span id="valorRegla">0.00</span></p>
           </div>
         </div>
-       </main>
+
       <footer class="footer_index">
         <div class="footer_logo">
             <div>
@@ -103,10 +107,12 @@
                 <a class="a" href="https://www.facebook.com/pandita.maik" target="_blank">@ClubLector-oficial</a>   
             </div>
     </footer>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="../js/app.js"></script>
   </div>
+</main>
 </body>
     </html>

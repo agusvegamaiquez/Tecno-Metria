@@ -125,12 +125,49 @@ main{
     }
 
 }
+/*Información*/
+.info_div h2 {
+    text-align: center;
+}
+.info_div p {
+    text-align: center;
+}
+.divgeneralinf{
+    background-color: #fca311;
+    color: #102754;
+    border-radius: 0.5rem;
+    margin: 7% 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center; 
+    padding: 0em;
+}
+.linksdata{
+    text-align: center;
+}
+.fotoinf{
+    width: 10%;
+    margin:4% 4%;
+}
+.info_div{
+    margin:2rem 4rem;
 
-
+}
+@media only screen and (max-width: 790px){
+    .fotoinf{
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 450px){
+    .fotoinf{
+        width: 50%;
+    }
+}
 /*Nosotros*/
 .h2_nos {
     font-size: 400%;
-    border: #fca311 4px solid ;
+    background-color: #fca311;
     font-weight: bolder;
     font-style: normal;
     padding: 1rem;
@@ -138,7 +175,6 @@ main{
     display: flex;
     justify-content: center; 
 }
-  
 .main_infons {
     display: flex;
     align-items: center;
@@ -157,7 +193,7 @@ main{
       padding: 0rem 1rem;
       font-size: larger; 
     }
-  #filo {
+#filo {
     flex-direction: row-reverse; 
 }
   
@@ -166,10 +202,8 @@ main{
     justify-content: space-around; 
 }
 .integrantes {
-      width: 15%;
-      border-radius: 90%;
+      width: 25%;
       margin: 2%;
-      filter: brightness(60%); 
     }
 .integrantes:hover {
         filter: brightness(100%);
@@ -199,7 +233,8 @@ main{
     .socios_img {
         display: flex;
         display: block;
-        text-align: center; }
+        text-align: center; 
+    }
     .integrantes {
         width: 20%;
         margin: 5%; }
@@ -207,6 +242,21 @@ main{
 
 
 /*Calculadora*/
+.botones{
+    display: flex;
+    justify-content: center;
+}
+.specific{
+    background-color: #fca311;
+    border-radius: 0.5rem;
+}
+.buttons{
+    margin: 1rem;
+}
+.importe{
+    color: #fca311;
+    text-align: center;
+}
 .section {
 margin: 4rem 3rem;
 display: flex;
