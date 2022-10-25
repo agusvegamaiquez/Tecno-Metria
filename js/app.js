@@ -34,3 +34,7 @@ document.querySelector('#calcular').addEventListener('click', () =>{
     let r = (n2*n3)/n1
     document.querySelector('#r2').innerHTML = r;
 })
+
+function stopDefAction(evt) {
+    evt.preventDefault();
+  }

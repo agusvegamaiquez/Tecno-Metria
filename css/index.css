@@ -249,8 +249,9 @@ main{
     background-color: #fca311;
     border-radius: 0.5rem;
 }
-.buttons{
-    margin: 1rem;
+#calcular{
+    background-color: #fca311;
+    border-radius: 2rem;
 }
 .importe{
     color: #fca311;
