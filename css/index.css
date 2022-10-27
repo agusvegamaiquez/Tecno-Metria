@@ -1,7 +1,14 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /*HEADER*/
 header h1{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace !important;
     
+}
+.h2_index{
+    font-family: 'Courier New', Courier, monospace !important;
 }
 header {
     background-color: white;
@@ -132,6 +139,7 @@ main{
 /*Información*/
 .info_div h2 {
     text-align: center;
+    
 }
 .info_div p {
     text-align: center;
@@ -182,6 +190,8 @@ main{
     box-shadow: 2px 8px 4px 2px rgba(0, 0, 0, 0.49); 
 }
 .h2_div_inf {
+    font-family: 'Courier New', Courier, monospace !important;
+
       margin: 1.4rem 1rem;
       padding: 0rem 1rem; 
     }
